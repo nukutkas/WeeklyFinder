@@ -57,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E50C05E624D934CD001C56DF /* AppDelegate.swift */,
+				E5CD3507264D1081000E9BF6 /* Screenshots */,
 				E50C05E824D934CD001C56DF /* SceneDelegate.swift */,
 				E50C05EA24D934CD001C56DF /* ViewController.swift */,
 				E50C05EC24D934CD001C56DF /* Main.storyboard */,
@@ -65,6 +66,13 @@
 				E50C05F424D934CF001C56DF /* Info.plist */,
 			);
 			path = WeeklyFinder;
+			sourceTree = "<group>";
+		};
+		E5CD3507264D1081000E9BF6 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

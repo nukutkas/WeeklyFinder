@@ -36,6 +36,9 @@ class ViewController: UIViewController {
         let capitalizedWeekday = weekday.capitalized
         
         resultLabel.text = capitalizedWeekday
+        resultLabel.textColor = .blue
+        resultLabel.font = .systemFont(ofSize: 30)
+    
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
