@@ -14,7 +14,7 @@
 		E50C05F024D934CF001C56DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E50C05EF24D934CF001C56DF /* Assets.xcassets */; };
 		E50C05F324D934CF001C56DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50C05F124D934CF001C56DF /* LaunchScreen.storyboard */; };
 		E5CD350C264D191F000E9BF6 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD350A264D191F000E9BF6 /* Screenshot01.png */; };
-		E5CD3511264D194D000E9BF6 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD3510264D194D000E9BF6 /* Screenshot02.png */; };
+		E5CD3515264D1B16000E9BF6 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD3514264D1B16000E9BF6 /* Screenshot02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		E50C05F224D934CF001C56DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E50C05F424D934CF001C56DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5CD350A264D191F000E9BF6 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
-		E5CD3510264D194D000E9BF6 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		E5CD3514264D1B16000E9BF6 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				E5CD350A264D191F000E9BF6 /* Screenshot01.png */,
-				E5CD3510264D194D000E9BF6 /* Screenshot02.png */,
+				E5CD3514264D1B16000E9BF6 /* Screenshot02.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 				E50C05F324D934CF001C56DF /* LaunchScreen.storyboard in Resources */,
 				E50C05F024D934CF001C56DF /* Assets.xcassets in Resources */,
 				E5CD350C264D191F000E9BF6 /* Screenshot01.png in Resources */,
-				E5CD3511264D194D000E9BF6 /* Screenshot02.png in Resources */,
+				E5CD3515264D1B16000E9BF6 /* Screenshot02.png in Resources */,
 				E50C05EE24D934CD001C56DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
