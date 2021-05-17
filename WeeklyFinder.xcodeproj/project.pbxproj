@@ -15,6 +15,7 @@
 		E50C05F324D934CF001C56DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50C05F124D934CF001C56DF /* LaunchScreen.storyboard */; };
 		E5CD350C264D191F000E9BF6 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD350A264D191F000E9BF6 /* Screenshot01.png */; };
 		E5CD3515264D1B16000E9BF6 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD3514264D1B16000E9BF6 /* Screenshot02.png */; };
+		E5CD3518264D1CA5000E9BF6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E5CD3517264D1CA5000E9BF6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E50C05F424D934CF001C56DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5CD350A264D191F000E9BF6 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		E5CD3514264D1B16000E9BF6 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		E5CD3517264D1CA5000E9BF6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,16 +62,49 @@
 		E50C05E524D934CD001C56DF /* WeeklyFinder */ = {
 			isa = PBXGroup;
 			children = (
-				E50C05E624D934CD001C56DF /* AppDelegate.swift */,
+				E5A1365C265309210083BAD7 /* View Controllers */,
+				E5A13661265309560083BAD7 /* Storyboards */,
+				E5A1365F265309470083BAD7 /* Supporting files */,
+				E5A1365E265309300083BAD7 /* Sources */,
 				E5CD3507264D1081000E9BF6 /* Screenshots */,
-				E50C05E824D934CD001C56DF /* SceneDelegate.swift */,
-				E50C05EA24D934CD001C56DF /* ViewController.swift */,
-				E50C05EC24D934CD001C56DF /* Main.storyboard */,
-				E50C05EF24D934CF001C56DF /* Assets.xcassets */,
-				E50C05F124D934CF001C56DF /* LaunchScreen.storyboard */,
-				E50C05F424D934CF001C56DF /* Info.plist */,
+				E5CD3517264D1CA5000E9BF6 /* README.md */,
 			);
 			path = WeeklyFinder;
+			sourceTree = "<group>";
+		};
+		E5A1365C265309210083BAD7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E50C05EA24D934CD001C56DF /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E5A1365E265309300083BAD7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E50C05EF24D934CF001C56DF /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E5A1365F265309470083BAD7 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				E50C05E624D934CD001C56DF /* AppDelegate.swift */,
+				E50C05E824D934CD001C56DF /* SceneDelegate.swift */,
+				E50C05F424D934CF001C56DF /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E5A13661265309560083BAD7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E50C05EC24D934CD001C56DF /* Main.storyboard */,
+				E50C05F124D934CF001C56DF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		E5CD3507264D1081000E9BF6 /* Screenshots */ = {
@@ -139,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5CD3518264D1CA5000E9BF6 /* README.md in Resources */,
 				E50C05F324D934CF001C56DF /* LaunchScreen.storyboard in Resources */,
 				E50C05F024D934CF001C56DF /* Assets.xcassets in Resources */,
 				E5CD350C264D191F000E9BF6 /* Screenshot01.png in Resources */,
@@ -304,7 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = WeeklyFinder/Info.plist;
+				INFOPLIST_FILE = "WeeklyFinder/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = WeeklyFinder/Info.plist;
+				INFOPLIST_FILE = "WeeklyFinder/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
