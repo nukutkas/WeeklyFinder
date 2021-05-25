@@ -1,7 +1,7 @@
 # WeeklyFinder
 
 
-Weekday finder - app  for testing DateFormatter.
+Weekday finder - app  for practice  DateFormatter.
 
 # Installation
 
